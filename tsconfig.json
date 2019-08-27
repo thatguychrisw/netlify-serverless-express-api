@@ -8,7 +8,7 @@
     "moduleResolution": "node",
     "target": "es6",
     "outDir": "./app",
-    "baseUrl": "./src",
+    "baseUrl": "./lib",
     "paths": {
       "*": [
         "node_modules/*"
@@ -16,7 +16,8 @@
     }
   },
   "include": [
-    "src/**/*.ts"
+    "lib/**/*.ts",
+    "app.ts"
   ],
   "exclude": [
     "node_modules"
