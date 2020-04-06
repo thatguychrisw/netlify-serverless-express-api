@@ -18,7 +18,10 @@
     "netlify-lambda": "^1.6.3",
     "serverless-http": "latest",
     "ts-node": "^8.3.0",
-    "typescript": "^3.5.3"
+    "typescript": "^3.5.3",
+    "minimist": ">=1.2.3",
+    "kind-of": ">=6.0.3",
+    "serialize-javascript": ">=2.1.1"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.1",
