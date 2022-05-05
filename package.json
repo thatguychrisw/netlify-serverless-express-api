@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc && netlify-lambda build app",
+    "build": "tsc && netlify-lambda build app -c ./webpack.config.js",
     "dev": "ts-node app-local.ts",
     "test": "jest"
   },
