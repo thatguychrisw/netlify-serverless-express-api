@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parse": "latest",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-urlrewrite": "^1.2.0",
     "netlify-lambda": "^1.6.3",
     "serverless-http": "latest",
